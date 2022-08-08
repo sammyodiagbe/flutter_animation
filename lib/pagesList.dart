@@ -11,7 +11,6 @@ class RoutePage extends StatelessWidget {
         title: Text('Learning animation'),
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           ElevatedButton(
