@@ -1,4 +1,5 @@
 // ignore_for_file:prefer_const_constructors
+import 'package:animasion/explicit.dart';
 import 'package:animasion/implicit_animatio.dart';
 import 'package:animasion/pagesList.dart';
 import 'package:flutter/material.dart';
@@ -14,6 +15,7 @@ class AnimationApp extends StatelessWidget {
       home: RoutePage(),
       routes: {
         ImplicitAnimation.id: (context) => ImplicitAnimation(),
+        Animation2.id: (context) => Animation2()
       },
     );
   }
