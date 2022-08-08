@@ -1,4 +1,5 @@
 // ignore_for_file:prefer_const_constructors
+import 'package:animasion/pagesList.dart';
 import 'package:flutter/material.dart';
 
 const owlImage =
@@ -12,12 +13,7 @@ class AnimationApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Animation widget',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Learning animation'),
-        ),
-        body: Owly(),
-      ),
+      home: RoutePage(),
     );
   }
 }
