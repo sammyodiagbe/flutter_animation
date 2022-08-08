@@ -5,6 +5,7 @@ const owlImage =
     'https://raw.githubusercontent.com/flutter/website/master/src/images/owl.jpg';
 
 class ImplicitAnimation extends StatefulWidget {
+  static String id = 'implicit_animation';
   const ImplicitAnimation({Key? key}) : super(key: key);
   State<ImplicitAnimation> createState() => ImplicitAnimationState();
 }
