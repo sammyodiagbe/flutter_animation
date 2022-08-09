@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:animasion/explicit.dart';
 import 'package:animasion/implicit_animatio.dart';
 import "package:flutter/material.dart";
 
@@ -22,7 +23,9 @@ class RoutePage extends StatelessWidget {
           SizedBox(height: 10),
           ElevatedButton(
             child: Text('Explicit animation'),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, Animation2.id);
+            },
           )
         ],
       ),
