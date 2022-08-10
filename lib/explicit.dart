@@ -18,7 +18,7 @@ class _Animation2State extends State<Animation2>
     super.initState();
     controller = AnimationController(
       vsync: this,
-      duration: Duration(seconds: 2),
+      duration: Duration(milliseconds: 200),
     );
     animation = Tween<double>(begin: 0, end: 300).animate(controller);
     controller.forward();
