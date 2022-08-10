@@ -44,7 +44,9 @@ class _Animation2State extends State<Animation2>
       body: Column(
         children: [
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              startAnimation();
+            },
             child: Text('Do animation'),
           ),
           SizedBox(height: 15),
