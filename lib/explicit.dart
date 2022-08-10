@@ -20,7 +20,10 @@ class _Animation2State extends State<Animation2>
       vsync: this,
       duration: Duration(milliseconds: 200),
     );
-    animation = Tween<double>(begin: 0, end: 300).animate(controller);
+    animation = Tween<double>(begin: 0, end: 300).animate(controller)
+      ..addStatusListener((status) {
+        print('Animation status $status');
+      });
     // controller.forward();
   }
 
