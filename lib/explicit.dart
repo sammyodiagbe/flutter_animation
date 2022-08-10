@@ -21,6 +21,10 @@ class _Animation2State extends State<Animation2>
       duration: Duration(milliseconds: 200),
     );
     animation = Tween<double>(begin: 0, end: 300).animate(controller);
+    // controller.forward();
+  }
+
+  void startAnimation() {
     controller.forward();
   }
 
