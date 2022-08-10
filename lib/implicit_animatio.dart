@@ -19,7 +19,6 @@ class ImplicitAnimationState extends State<ImplicitAnimation> {
         title: Text('Implicit animation'),
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ElevatedButton(
             child: Text('Show owl animation'),
